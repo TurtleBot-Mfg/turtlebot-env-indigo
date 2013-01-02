@@ -1,0 +1,14 @@
+Source: turtlebot-env-groovy
+Section: science
+Priority: extra
+Maintainer: I Heart Engineering <code@iheartengineering.com>
+Build-Depends: debhelper (>= 5), config-package-dev (>= 4.5~), cdbs
+Standards-Version: 3.9.3
+
+Package: turtlebot-env-groovy
+Provides: turtlebot-env
+Essential: yes
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev, turtlebot-ros
+Description: TurtleBot system envronment
+Conflicts: turtlebot-env-fuerte, ${diverted-files}
