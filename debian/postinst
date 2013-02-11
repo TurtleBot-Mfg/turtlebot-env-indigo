@@ -14,11 +14,6 @@ case "$1" in
       invoke-rc.d ps3joy restart || true
     fi
 
-    # create ros directories
-    mkdir -p /etc/skel/ros
-    # Should already be created
-    # mkdir -p /etc/ros
-
     # all new users source ros on startup
     grep '. /etc/ros/setup.bash' /etc/skel/.bashrc >/dev/null 2>&1 || echo ". /etc/ros/setup.bash" >> /etc/skel/.bashrc
 
