@@ -1,4 +1,21 @@
-turtlebot-env-groovy (0.0.4) precise; urgency=low
+turtlebot-env-hydro (0.0.6~1.gbp47e2db) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @47e2db5bdbcfae8139a837cc55255730d575470d **
+
+  [ lucid ]
+  * UNRELEASED
+
+  [ I Heart Engineering ]
+
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 10 Oct 2013 12:33:00 -0400
+
+turtlebot-env-hydro (0.0.5) precise; urgency=low
+
+  * Remove /etc/skel/ros and minor cleanups
+
+ -- I Heart Engineering <code@iheartengineering.com>  Mon, 11 Feb 2013 01:14:03 -0500
+
+turtlebot-env-hydro (0.0.4) precise; urgency=low
 
   * version bump to fix fork
 

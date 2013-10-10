@@ -1,12 +1,16 @@
-Source: turtlebot-env-groovy
+Source: turtlebot-env-hydro
 Section: science
 Priority: extra
-Maintainer: I Heart Engineering <code@iheartengineering.com>
+Maintainer: NE Automation <code@neautomation.com>
 Build-Depends: debhelper (>= 5), config-package-dev (>= 4.5~), cdbs
 Standards-Version: 3.9.3
 
-Package: turtlebot-env-groovy
+Package: turtlebot-env-hydro
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev, turtlebot-ros
 Description: TurtleBot system envronment
-Conflicts: turtlebot-env-fuerte, ${diverted-files}
+
+Provides: turtlebot-env
+Conflicts: turtlebot-env
+Replaces: turtlebot-env
+Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev, turtlebot-ros-hydro | turtlebot-ros
+

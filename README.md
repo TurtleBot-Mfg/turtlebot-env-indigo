@@ -14,3 +14,9 @@ root/etc/init.d/ps3joy
 
 root/etc/modprobe.d/blacklist-kinect.conf
   Disables Kinect kernel driver to avoid conflict with OpenNI userland driver
+
+root/etc/udev/rules.d/57-kobuki.rules
+  Kobuki FTDI Driver
+
+root/etc/udev/rules.d/60-create.rules
+  iRobot Create FTDI Driver
