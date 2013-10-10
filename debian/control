@@ -7,10 +7,9 @@ Standards-Version: 3.9.3
 
 Package: turtlebot-env-hydro
 Architecture: any
-Description: TurtleBot system envronment
-
 Provides: turtlebot-env
 Conflicts: turtlebot-env
 Replaces: turtlebot-env
 Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev, turtlebot-ros-hydro | turtlebot-ros
+Description: TurtleBot system envronment
 

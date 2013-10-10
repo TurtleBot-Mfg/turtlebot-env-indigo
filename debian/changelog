@@ -1,13 +1,11 @@
-turtlebot-env-hydro (0.0.6~1.gbp47e2db) UNRELEASED; urgency=low
+turtlebot-env-hydro (0.0.6) precise; urgency=low
 
-  ** SNAPSHOT build @47e2db5bdbcfae8139a837cc55255730d575470d **
-
-  [ lucid ]
-  * UNRELEASED
+  [ NE Automation ]
+  * Forked and updates for Hydro; maintainer updated
 
   [ I Heart Engineering ]
 
- -- I Heart Engineering <code@iheartengineering.com>  Thu, 10 Oct 2013 12:33:00 -0400
+ -- I Heart Engineering <code@iheartengineering.com>  Thu, 10 Oct 2013 12:38:38 -0400
 
 turtlebot-env-hydro (0.0.5) precise; urgency=low
 
