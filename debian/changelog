@@ -1,3 +1,12 @@
+turtlebot-env-indigo (0.0.8~1.gbpf885a3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f885a3e2a7fb1f231103f1dd432c99ed2f94261a **
+
+  * UNRELEASED
+  * UNRELEASED
+
+ -- username <username@work>  Mon, 20 Apr 2015 23:43:45 -0400
+
 turtlebot-env-indigo (0.0.7) precise; urgency=low
 
   [ NE Automation ]
