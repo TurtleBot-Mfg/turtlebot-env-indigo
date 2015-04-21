@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-PKG=turtlebot-env-hydro
+PKG=turtlebot-env-indigo
 
 #DEBHELPER#
 
@@ -15,7 +15,7 @@ case "$1" in
     fi
 
     # all new users source ros on startup
-    grep '. /etc/ros/setup.bash' /etc/skel/.bashrc >/dev/null 2>&1 || echo ". /etc/ros/setup.bash" >> /etc/skel/.bashrc
+    #grep '. /etc/ros/setup.bash' /etc/skel/.bashrc >/dev/null 2>&1 || echo ". /etc/ros/setup.bash" >> /etc/skel/.bashrc
 
     ;;
 

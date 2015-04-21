@@ -1,8 +1,10 @@
 #!/bin/sh
 
 if [ "$1" = remove ]; then
-    dpkg-divert --package turtlebot-env-hydro --remove --rename \
+    dpkg-divert --package turtlebot-env-indigo --remove --rename \
         --divert /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml.real /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml
+    dpkg-divert --package turtlebot-env-indigo --remove --rename \
+        --divert /etc/default/avahi-daemon.orig /etc/default/avahi-daemon
 fi
 
 #DEBHELPER#

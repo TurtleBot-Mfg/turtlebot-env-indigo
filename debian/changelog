@@ -1,20 +1,6 @@
-turtlebot-env-hydro (0.0.6) precise; urgency=low
+turtlebot-env-indigo (0.0.7) precise; urgency=low
 
   [ NE Automation ]
-  * Forked and updates for Hydro; maintainer updated
+  * Forked and updates for Indigo
 
-  [ I Heart Engineering ]
-
- -- I Heart Engineering <code@iheartengineering.com>  Thu, 10 Oct 2013 12:38:38 -0400
-
-turtlebot-env-hydro (0.0.5) precise; urgency=low
-
-  * Remove /etc/skel/ros and minor cleanups
-
- -- I Heart Engineering <code@iheartengineering.com>  Mon, 11 Feb 2013 01:14:03 -0500
-
-turtlebot-env-hydro (0.0.4) precise; urgency=low
-
-  * version bump to fix fork
-
- -- I Heart Engineering <code@iheartengineering.com>  Fri, 01 Feb 2013 18:20:54 -0500
+ -- NE Automation <code@neautomation.com>  Thu, 10 Oct 2013 12:38:38 -0400

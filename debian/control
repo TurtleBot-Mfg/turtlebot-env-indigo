@@ -1,15 +1,15 @@
-Source: turtlebot-env-hydro
+Source: turtlebot-env-indigo
 Section: science
 Priority: extra
 Maintainer: NE Automation <code@neautomation.com>
 Build-Depends: debhelper (>= 5), config-package-dev (>= 4.5~), cdbs
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 
-Package: turtlebot-env-hydro
+Package: turtlebot-env-indigo
 Architecture: any
 Provides: turtlebot-env
 Conflicts: turtlebot-env
 Replaces: turtlebot-env
-Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev, turtlebot-ros-hydro | turtlebot-ros
+Depends: ${shlibs:Depends}, ${misc:Depends}, chrony, openssh-server, udev
 Description: TurtleBot system envronment
 
