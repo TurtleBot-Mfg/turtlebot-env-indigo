@@ -3,9 +3,11 @@
 
 export DH_ALWAYS_EXCLUDE=CVS:.svn:.git
 
-DEB_DIVERT_EXTENSION = .turtlebot-dev
-DEB_DIVERT_FILES_pr2-environment += \
-	/etc/bluetooth/main.conf.turtlebot-dev
+DEB_DIVERT_EXTENSION = .turtlebot-env
+DEB_DIVERT_FILES_turtlebot-env-indigo += \
+	/etc/bluetooth/main.conf.turtlebot-env
+DEB_DIVERT_FILES_turtlebot-env-indigo += \
+        /etc/default/avahi-daemon.turtlebot-env
 
 %:
 	dh $@
