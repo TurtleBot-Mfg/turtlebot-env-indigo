@@ -4,6 +4,7 @@ case "$1" in
   purge)
     # TODO: double-check this to make sure nothing's missing
     update-rc.d ps3joy remove
+    /usr/bin/glib-compile-schemas /usr/share/glib-2.0/schemas
     #grep -v '. /etc/ros/setup.bash' /etc/skel/.bashrc > /etc/skel/.bashrc
 
     ;;

@@ -1,12 +1,9 @@
 #!/bin/sh
 if [ "$1" = install ]; then
-    # divert /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml
-    dpkg-divert --package turtlebot-env-indigo --add --rename \
-        --divert /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml.real /usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.power.gschema.xml
     # divert /etc/default/avahi-daemon
-    #dpkg-divert --package turtlebot-env-indigo --add --rename \
-    #    --divert /etc/default/avahi-daemon.orig /etc/default/avahi-daemon
-    rm /etc/default/avahi-daemon
+    dpkg-divert --package turtlebot-env-indigo --add --rename \
+        --divert /etc/default/avahi-daemon.real /etc/default/avahi-daemon
+    #rm /etc/default/avahi-daemon
 fi
 
 #DEBHELPER#

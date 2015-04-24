@@ -1,11 +1,35 @@
-turtlebot-env-indigo (0.0.8~1.gbpf885a3) UNRELEASED; urgency=medium
+turtlebot-env-indigo (0.0.8~1.gbp8c9a41) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @8c9a419620edb06cc4895cf83c69b36bf91e63a5 **
+
+  [ username ]
   ** SNAPSHOT build @f885a3e2a7fb1f231103f1dd432c99ed2f94261a **
 
   * UNRELEASED
   * UNRELEASED
 
- -- username <username@work>  Mon, 20 Apr 2015 23:43:45 -0400
+  [ Lucid One ]
+  * Fixing divert
+
+  [ username ]
+
+  [ Lucid One ]
+  * divert fixing
+
+  [ username ]
+
+  [ Lucid One ]
+  * diverison
+
+  [ username ]
+  * UNRELEASED
+
+  [ Lucid One ]
+  * fixing divert
+
+  [ username ]
+
+ -- Lucid One <LucidOne@users.noreply.github.com>  Tue, 21 Apr 2015 00:55:31 -0400
 
 turtlebot-env-indigo (0.0.7) precise; urgency=low
 
