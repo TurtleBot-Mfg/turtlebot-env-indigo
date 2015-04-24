@@ -18,7 +18,6 @@ case "$1" in
 
     # all new users source ros on startup
     #grep '. /etc/ros/setup.bash' /etc/skel/.bashrc >/dev/null 2>&1 || echo ". /etc/ros/setup.bash" >> /etc/skel/.bashrc
-    /etc/init.d/avahi-daemon start
 
     ;;
 

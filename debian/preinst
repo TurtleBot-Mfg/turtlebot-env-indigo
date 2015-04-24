@@ -1,9 +1,5 @@
 #!/bin/sh
 if [ "$1" = install ]; then
-    # divert /etc/default/avahi-daemon
-    dpkg-divert --package turtlebot-env-indigo --add --rename \
-        --divert /etc/default/avahi-daemon.real /etc/default/avahi-daemon
-    #rm /etc/default/avahi-daemon
 fi
 
 #DEBHELPER#
