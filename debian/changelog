@@ -1,6 +1,6 @@
-turtlebot-env-indigo (0.0.8~1.gbp8c9a41) UNRELEASED; urgency=medium
+turtlebot-env-indigo (0.0.8~1.gbpc04812) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8c9a419620edb06cc4895cf83c69b36bf91e63a5 **
+  ** SNAPSHOT build @c048128a8e85a6c501bacfbe38b3613ea40e1f87 **
 
   [ username ]
   ** SNAPSHOT build @f885a3e2a7fb1f231103f1dd432c99ed2f94261a **
@@ -29,7 +29,20 @@ turtlebot-env-indigo (0.0.8~1.gbp8c9a41) UNRELEASED; urgency=medium
 
   [ username ]
 
- -- Lucid One <LucidOne@users.noreply.github.com>  Tue, 21 Apr 2015 00:55:31 -0400
+  [ Lucid One ]
+  * fixing gschema for indigo
+
+  [ username ]
+
+  [ Lucid One ]
+  * Can not divert config files without hackery
+  * fixing diversion
+
+  [ username ]
+  * UNRELEASED
+  * UNRELEASED
+
+ -- username <username@work>  Fri, 24 Apr 2015 02:01:34 -0400
 
 turtlebot-env-indigo (0.0.7) precise; urgency=low
 
