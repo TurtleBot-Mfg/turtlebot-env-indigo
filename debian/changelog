@@ -1,52 +1,11 @@
-turtlebot-env-indigo (0.0.8~1.gbpc04812) UNRELEASED; urgency=medium
+turtlebot-env-indigo (0.0.8) trusty; urgency=medium
 
-  ** SNAPSHOT build @c048128a8e85a6c501bacfbe38b3613ea40e1f87 **
+  * Indigo update
 
-  [ username ]
-  ** SNAPSHOT build @f885a3e2a7fb1f231103f1dd432c99ed2f94261a **
-
-  * UNRELEASED
-  * UNRELEASED
-
-  [ Lucid One ]
-  * Fixing divert
-
-  [ username ]
-
-  [ Lucid One ]
-  * divert fixing
-
-  [ username ]
-
-  [ Lucid One ]
-  * diverison
-
-  [ username ]
-  * UNRELEASED
-
-  [ Lucid One ]
-  * fixing divert
-
-  [ username ]
-
-  [ Lucid One ]
-  * fixing gschema for indigo
-
-  [ username ]
-
-  [ Lucid One ]
-  * Can not divert config files without hackery
-  * fixing diversion
-
-  [ username ]
-  * UNRELEASED
-  * UNRELEASED
-
- -- username <username@work>  Fri, 24 Apr 2015 02:01:34 -0400
+ -- NE Automation (Software Release Team) <code@neautomation.com>  Fri, 01 May 2015 00:56:38 -0400
 
 turtlebot-env-indigo (0.0.7) precise; urgency=low
 
-  [ NE Automation ]
   * Forked and updates for Indigo
 
- -- NE Automation <code@neautomation.com>  Thu, 10 Oct 2013 12:38:38 -0400
+ -- NE Automation (Software Release Team) <code@neautomation.com>  Thu, 10 Oct 2013 12:38:38 -0400
